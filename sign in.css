@@ -1,0 +1,114 @@
+.topnav{ background-color: rgba(218, 211, 151, 0.884);
+    height: 60px;
+    width: 100%;}
+    .topnav a{
+        float: right;
+        display: block;
+        color: rgb(253, 245, 249);
+        text-align: center;
+        padding: 18px 25px ;
+        text-decoration: none;
+        font-size: 17px;
+        word-spacing: 3px;
+        height: 60px;
+    }
+    .topnav img{
+        height: 1250px;
+        width: 100px;
+        margin-top: 10px;
+    } 
+    .topnav a:hover{
+        color: blue;
+        background-color: cyan;
+    }
+    body{margin: 0px;
+background-color: cornsilk;
+    }
+
+.search-container{
+float: right;
+width: 85%;
+padding: 10px 10px;
+background-color:wheat;
+border: none;
+font-size: 20px;
+height:35px;
+margin-left: 120px;
+}
+form{
+    margin-left: 120px;
+    width: 300px; ;
+}
+.sidenav {
+    height: 1250px;
+    width: 15%;
+    position: absolute;
+    z-index: 10;
+    top: 70;
+    left: o;
+    background-color: rgb(214, 214, 20);
+    overflow-x: hidden;
+    padding-top: 20px ;
+}
+button{
+    height: 28px;
+    width: 80px;
+    margin: left -20px;;
+    border: none;
+}
+.input-search{
+height: 20px ;
+width: 50%;
+padding-left: 25px;
+}
+.sidenav a{
+    padding: 6px 6px 8px 6px;
+    color: black;
+    text-decoration: none;
+    display: block;}
+
+.sidenav a:hover{
+    background-color: white;
+}
+.card a {
+    box-shadow: 3px 3px 5px lightgray;
+    text-decoration: none;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid darkgray;
+    background: #dfe0e2;
+    margin: 60px;
+    padding: 20px;
+
+}
+.card img {
+    border-radius: 3px;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+.card button {
+    padding: 10px;
+    border: none;
+    background: rgb(215, 221, 250);
+    color: rgb(36, 106, 172);
+    width: 100px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+.card button:hover {
+    background: wheat;
+    color: white;
+}
+.card p {
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+.card {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

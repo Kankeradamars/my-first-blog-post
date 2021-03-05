@@ -1,0 +1,118 @@
+.topnav{ background-color: wheat;
+    height: 60px;
+    width: 100%;
+}
+    .topnav a{
+        float: right;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 18px 25px ;
+        text-decoration: none;
+        font-size: 17px;
+        word-spacing: 3px;
+        height: 60px;
+    }
+    .topnav img{
+        height: 40px;
+        width:50px;
+        margin-top: 10px;
+    } 
+    .topnav a:hover{
+        background-color: gray;
+    }
+    body{margin: 0px;
+background-color: cornsilk;
+    }
+
+.search-container{
+float: right;
+width: 85%;
+padding: 10px 10px;
+background-color:blanchedalmond;
+border: none;
+font-size: 20px;
+height:35px;
+margin-left: 120px;
+left: 0;
+top: 65px;
+}
+form{
+    margin-left: 120px;
+    width: 300px; ;
+}
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 10;
+    top: 70;
+    left: o;
+    background-color:blanchedalmond;
+    overflow-x: hidden;
+    padding-left: 0px ;
+}
+button{
+    height: 35px;
+    width: 80px;
+    margin: left -40px;;
+    border: none;
+}
+.input-search{
+height: 20px ;
+width: 20%;
+padding-left: 25px;
+}
+.sidenav a{
+    padding: 6px 6px 8px 6px;
+    color: black;
+    text-decoration: none;
+    display: block;}
+
+.sidenav a:hover{
+    background-color: white;
+}
+.card {
+    box-shadow: 3px 3px 5px lightgray;
+    text-decoration: none;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid darkgray;
+    background: #dfe0e2;
+    margin: 60px;
+    padding: 20px;
+
+}
+.card-container img {
+    border-radius: 3px;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+.card-container button {
+    padding: 10px;
+    border: none;
+    background: rgb(215, 221, 250);
+    color: rgb(36, 106, 172);
+    width: 100px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+.card-container button:hover {
+    background: wheat;
+    color: white;
+}
+.card-container p {
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+.card-container{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+    
